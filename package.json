@@ -1,0 +1,22 @@
+{
+  "name": "web2021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile-sass": "node-sass sass/main.scss css/main.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alisq/web2021.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alisq/web2021/issues"
+  },
+  "homepage": "https://github.com/alisq/web2021#readme",
+  "dependencies": {
+    "sass": "^1.37.0"
+  }
+}

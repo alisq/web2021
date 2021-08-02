@@ -1,0 +1,37 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%;
+  min-height: 100vh; }
+
+@font-face {
+  font-family: "karrik";
+  src: url("/css/fonts/karrik/Karrik-Regular.woff2") format("woff2"), url("/css/fonts/karrik/Karrik-Regular.woff") format("woff2"), url("/css/fonts/karrik/Karrik-Regular.ttf") format("truetype");
+  font-weight: 400; }
+
+@font-face {
+  font-family: "karrik";
+  src: url("/css/fonts/karrik/Karrik-Italic.woff2") format("woff2"), url("/css/fonts/karrik/Karrik-Italic.woff") format("woff2"), url("/css/fonts/karrik/Karrik-Italic.ttf") format("truetype");
+  font-style: italic; }
+
+@font-face {
+  font-family: "newsreader";
+  src: url("/css/fonts/newsreader/NewsreaderText-Regular.woff2") format("woff2"), url("/css/fonts/newsreader/NewsreaderText-Regular.woff") format("woff"), url("/css/fonts/newsreader/NewsreaderText-Regular.ttf") format("truetype");
+  font-weight: normal; }
+
+@font-face {
+  font-family: "newsreader";
+  src: url("/css/fonts/newsreader/NewsreaderText-Italic.woff2") format("woff2"), url("/css/fonts/newsreader/NewsreaderText-Italic.woff") format("woff2"), url("/css/fonts/newsreader/NewsreaderText-Italic.ttf") format("truetype");
+  font-style: italic; }
+
+body {
+  font-family: 'newsreader';
+  font-size: 3rem; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'karrik'; }
